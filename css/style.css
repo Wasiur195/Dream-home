@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+   background-color: white;
+   
+}
+.wrapper{
+	
+	width: 80%;
+	margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	
+}
+.logo img{
+	width: 100%;
+	margin-top: 5px;
+}
+
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: -34px;
+	
+}
+.menu ul {
+	float: right;
+	margin-top: 50px;
+	
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+
+}
+.menu ul li a{
+	margin-top: 30px;
+	text-decoration: none;
+	padding: 10px 10px;
+	display: block;
+	color: black;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	color: #0074B7;
+	}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+#banner{
+	background-image: url(../images/Happy-Couple-Love-Pure.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50% ;
+
+}
+.content{
+	width: 30%;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	float: left;
+	background-color: grey;
+	opacity: 0.7;
+	overflow: hidden;
+	padding: 15px;
+
+}
+
+.content h1{
+	color: white;
+	font-size: 40px;
+	font-weight: 500;
+}
+.content p{
+	color: white;
+	font-size: 20px;
+}
+.content button{
+	border: none;
+	padding: 10px 40px;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: black;
+    opacity: 0.5;
+	margin-top: 10px;
+	color: white;
+}
+/*banner end*/
+/*service start*/
+#service{
+	background-color: white;
+	padding: 50px 0;
+
+}
+.single{
+	width: 30%;
+	overflow: hidden;
+    border-right:1px solid white;
+    padding: 30px 18px;
+    float: left;
+
+}
+.single:last-child{
+	border-right: 0;
+}
+.title{
+	overflow: hidden;
+     margin-bottom:25px; 
+
+}
+.icon{
+	width: 30%;
+	
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	width: 0%;
+	margin-top: 10px;
+	
+	
+	margin-top: 10px;
+}   
+.icon_content p{
+	font-size:30px;
+	color: white; 
+
+}
+
+
+	
+
+.desc{}
+.desc p{
+	font-size:20px;
+	color:black ;
+	padding: 10px;
+}
+.single button{
+	border: none;
+	padding: 10px 30px;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: #496281;
+    opacity: 0.7;
+	margin-top: 10px;
+	color: black;
+
+}
+/*service end*/
+/*footer start*/
+.footer{
+background-color: white;
+	padding: 50px 0;
+}
+.foot{
+	margin-left:500px; 
+}
+.foot p{
+font-size:10px;
+	color:black ;
+	padding: 10px;
+}
+.foot h6{
+     font-size:13px;
+	color:black ;
+	padding: 10px;
+}
+.foot img{
+width: 40%;
+}
